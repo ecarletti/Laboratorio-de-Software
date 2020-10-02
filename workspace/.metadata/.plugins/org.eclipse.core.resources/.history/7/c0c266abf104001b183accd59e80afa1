@@ -1,0 +1,13 @@
+package ej1a;
+
+public class MisColores implements ColImpresion, ColorArcoIris{
+	private int unColor;
+	
+	public MisColores() {
+		int unColor= ColorArcoIris.AMARILLO;
+	}
+
+	public int getUnColor() {
+		return unColor;
+	}
+}

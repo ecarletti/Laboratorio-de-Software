@@ -1,0 +1,3 @@
+public HashSetAgregados(int initCap, float loadFactor) {
+		super(initCap, loadFactor);
+	}

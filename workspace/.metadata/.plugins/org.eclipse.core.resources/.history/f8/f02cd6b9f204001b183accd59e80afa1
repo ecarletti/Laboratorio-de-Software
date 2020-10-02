@@ -1,0 +1,25 @@
+package ej1b;
+
+public class InstrumentoDeCuerda implements InstrumentoMusical{
+
+	@Override
+	public void hacerSonar() {
+		// TODO Auto-generated method stub
+		System.out.println("Instrumento de Viento");
+	}
+
+	@Override
+	public String queEs() {
+		// TODO Auto-generated method stub
+		return "Instrumento de cuerda";
+	}
+
+	@Override
+	public void afinar() {
+		System.out.println("afinando si");
+		
+	}
+
+	
+
+}

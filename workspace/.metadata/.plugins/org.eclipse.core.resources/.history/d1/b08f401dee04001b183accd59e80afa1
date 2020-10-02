@@ -1,0 +1,46 @@
+package ej6;
+
+
+public class Rectangulo  extends FiguraGeometrica{
+	
+	private int ancho;
+	private int alto;
+
+	public Rectangulo(String color, int ancho, int alto) {
+		super(color);
+		// TODO Auto-generated constructor stub
+		this.ancho = ancho;
+		this.alto =alto;
+	}
+
+	
+	
+	@Override
+	public void dibujar() {
+		// TODO Auto-generated method stub
+		System.out.println("Se dibuja un circulo con ancho" + ancho 
+				+ " alto " + alto + " y color " + this.getColor());
+		
+	}
+
+
+
+	@Override
+	public int area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+	
+	
+	
+	
+	
+}

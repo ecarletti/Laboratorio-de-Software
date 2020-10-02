@@ -1,0 +1,13 @@
+package ej6;
+
+public class Circulo extends FiguraGeometrica {
+
+	private int radio;
+	
+	public Circulo(String color, int radio) {
+		super(color);
+		this.radio = radio;
+	}
+	
+
+}
